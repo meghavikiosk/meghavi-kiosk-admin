@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Button from "@material-ui/core/Button";
+import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { isAutheticated } from "src/auth";
@@ -16,7 +16,7 @@ import {
 } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import Fuse from "fuse.js";
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 import { AppBlockingSharp } from "@mui/icons-material";
 
 const Blogs = () => {

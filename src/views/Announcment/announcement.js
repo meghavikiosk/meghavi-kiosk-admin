@@ -13,7 +13,7 @@ import {
   Skeleton,
 } from "@mui/material";
 import axios from "axios";
-import { Box } from "@material-ui/core";
+import { Box } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { isAutheticated } from "src/auth";
 

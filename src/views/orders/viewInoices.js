@@ -25,7 +25,7 @@ import {
 } from "@mui/material";
 import onvoicesData from "../../assets/incoicedata.json";
 import { useNavigate, useParams } from "react-router-dom";
-import { TableContainer } from "@material-ui/core";
+import { TableContainer } from "@mui/material";
 import axios from "axios"; // Import axios for HTTP requests
 import { isAutheticated } from "src/auth";
 import Swal from "sweetalert2";

@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addItemsToCart } from "src/redux/Actions/cartAction";
 import toast from "react-hot-toast";
 import { cibBlackberry } from "@coreui/icons";
-import Button from "@material-ui/core/Button";
+import Button from "@mui/material/Button";
 
 function AddOrder() {
   const { status, id } = useParams();

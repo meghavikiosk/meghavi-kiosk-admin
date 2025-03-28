@@ -4,13 +4,13 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { isAutheticated } from "../../auth";
-import Button from "@material-ui/core/Button";
-import { Link } from "@material-ui/core";
+import Button from "@mui/material/Button";
+import { Link } from "@mui/material";
 import {
   DataGrid,
   GridCellProps,
   GridRenderCellParams,
-} from "@material-ui/data-grid";
+} from "@mui/x-data-grid";
 import CIcon from "@coreui/icons-react";
 import { cilTrash } from "@coreui/icons";
 

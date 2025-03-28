@@ -9,7 +9,7 @@ import {
   Paper,
   Select,
 } from "@mui/material";
-import { Box, Typography } from "@material-ui/core";
+import { Box, Typography } from "@mui/material";
 
 export default function MainAddress({ address, onAddressChange, edit }) {
   const { id, addressLine1, addressLine2, country, state, city, zipcode } =

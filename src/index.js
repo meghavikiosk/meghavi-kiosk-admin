@@ -15,8 +15,8 @@ import { cibGmail } from "@coreui/icons";
 import { createRoot } from "react-dom/client";
 
 const setupAxios = () => {
-  axios.defaults.baseURL = "http://localhost:5000";
-  // axios.defaults.baseURL = "https://tiffin-mate-api.onrender.com";
+  // axios.defaults.baseURL = "http://localhost:5000";
+  axios.defaults.baseURL = "https://meghavi-kiosk-api.onrender.com";
   // axios.defaults.baseURL = "https://api.cnapp.co.in";
 
   axios.defaults.headers = {

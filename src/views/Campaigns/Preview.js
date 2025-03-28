@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Button from "@material-ui/core/Button";
+import Button from "@mui/material/Button";
 import axios from "axios";
 import { isAutheticated } from "src/auth";
 

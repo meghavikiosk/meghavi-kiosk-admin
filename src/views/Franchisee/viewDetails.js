@@ -1,4 +1,4 @@
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 import { Box, Button, Paper } from "@mui/material";
 import axios from "axios";
 import React, { useEffect, useState } from "react";

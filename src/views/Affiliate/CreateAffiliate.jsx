@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Button from "@material-ui/core/Button";
+import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 import swal from "sweetalert";
 import { Country, State, City } from "country-state-city";

@@ -18,7 +18,7 @@ import { ClipLoader } from "react-spinners";
 import swal from "sweetalert";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
 import DeleteSharpIcon from "@mui/icons-material/DeleteSharp";
-import { Grid } from "@material-ui/core";
+import { Grid } from "@mui/material";
 
 const style = {
   position: "absolute",

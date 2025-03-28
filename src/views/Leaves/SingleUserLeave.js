@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
-import Button from "@material-ui/core/Button";
+import Button from "@mui/material/Button";
 import { isAutheticated } from "src/auth";
 import swal from "sweetalert";
 

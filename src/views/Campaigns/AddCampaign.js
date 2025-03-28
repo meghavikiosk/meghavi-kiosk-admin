@@ -12,7 +12,7 @@ import {
   CRow,
 } from "@coreui/react";
 
-import Button from "@material-ui/core/Button";
+import Button from "@mui/material/Button";
 
 import { isAutheticated } from "src/auth";
 import BasicDetaiils from "./BasicDetaiils.js";

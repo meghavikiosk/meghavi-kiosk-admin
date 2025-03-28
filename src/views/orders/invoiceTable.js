@@ -11,7 +11,7 @@ import {
   Chip,
 } from "@mui/material";
 import axios from "axios";
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 
 const InvoiceTable = ({ invoices }) => {
   return (
