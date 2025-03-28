@@ -141,9 +141,9 @@ const Login = () => {
               <CCard className="p-4">
                 <CCardBody>
                   <CForm>
-                    <h1>Tiffin mate</h1>
+                    <h1>Meghavi kiosk</h1>
                     <p className="text-medium-emphasis">
-                      Sign In to Your Tiffin mate Admin Dashboard.
+                      Sign In to Your Meghavi kiosk Admin Dashboard.
                     </p>
                     <CInputGroup className="mb-3">
                       <CInputGroupText>
@@ -199,9 +199,9 @@ const Login = () => {
                     </Link>
                     <br />
 
-                    <CButton color="link" className="px-0">
+                    {/* <CButton color="link" className="px-0">
                       <Link to="/forget-password">Forgot password.?</Link>
-                    </CButton>
+                    </CButton> */}
                   </CForm>
                 </CCardBody>
                 {/* <CButton color="" className="px-0">

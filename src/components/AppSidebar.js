@@ -127,7 +127,7 @@ const AppSidebar = () => {
             <img src={AdminlogoUrl} alt="" width="100%" />
           </Link>
         ) : { AppName } ? (
-          <h3>Tiffin mate </h3>
+          <h3>Meghavi kiosk </h3>
         ) : (
           ""
         )}
