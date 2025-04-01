@@ -88,7 +88,7 @@ import EditAboutUs from "./views/Content/editAboutUs";
 
 // import editPrincipalDistributorAddress from "./views/customerDetails/editPrincipalDistributorAddress";
 // import AddUserAddress from "./views/customerDetails/addUserAddress";
-import viewDetails from "./views/Franchisee/viewDetails";
+import viewDetails from "./views/Outlet/viewDetails";
 import Design from "./views/Design/design";
 import RegisterImage from "./views/Images/RegisterImage";
 import LoginImage from "./views/Images/LoginImage";
@@ -109,11 +109,11 @@ import CreateBlog from "./views/Blog/CreateBlog";
 import users from "./views/Users/users";
 import UpdateBlog from "./views/Blog/EditBlog";
 import ViewBlog from "./views/Blog/ViewBlog";
-import principalDistributor from "./views/Franchisee/principalDistributor";
-import SinglePrincipalDistributorAllDetails from "./views/Franchisee/singlePrincipalDistributorAllDetails";
+import principalDistributor from "./views/Outlet/principalDistributor";
+import SinglePrincipalDistributorAllDetails from "./views/Outlet/singlePrincipalDistributorAllDetails";
 
 import { element } from "prop-types";
-import addPrincipalDistributor from "./views/Franchisee/addPrincipalDistributor";
+import addPrincipalDistributor from "./views/Outlet/addPrincipalDistributor";
 import InStoreCashOrders from "./views/orders/InStoreCashOrders";
 
 import InStoreQRCodeOrders from "./views/orders/InStoreQRCodeOrders";
@@ -123,11 +123,11 @@ import EditEmployee from "./views/EmployeeAccess/editEmployee";
 import Currency from "./views/configuration/Currency";
 
 import AddMultipleProduct from "./views/Products/AddMultipleProducts";
-import AddMultiplePd from "./views/Franchisee/AddMultiplePD";
+import AddMultiplePd from "./views/Outlet/AddMultiplePD";
 
 import ViewProductManual from "./views/ProductManual/SingleProductManual";
 
-import ViewRetailDistributorPD from "./views/Franchisee/ViewRetailDistributorPD";
+import ViewRetailDistributorPD from "./views/Outlet/ViewRetailDistributorPD";
 
 import PendingOrders from "./views/orders/pendingOrders";
 import ViewInvoices from "./views/orders/viewInoices";

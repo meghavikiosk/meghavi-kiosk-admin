@@ -73,7 +73,7 @@ const Dashboard = () => {
     setOutlets(response.data.total_data)
   }
   const getAllCategory = async () => {
-    let res = await axios.get(`/api/category/getCategories`, {
+    let res = await axios.get(`/api/menu-category/getCategories`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -84,13 +84,13 @@ const Dashboard = () => {
   // //3rd
   const [services, setservices] = useState(null);
   const getAllservices = async () => {
-    let res = await axios.get(`/api/product/getAll/user/`, {
+    let res = await axios.get(`/api/get`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
     });
     console.log(res.data);
-    setservices(res?.data?.total_data);
+    setservices(res?.data?.totalItems);
   };
   const [Brand, setBrand] = useState(null);
   const getAllBrands = async () => {

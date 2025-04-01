@@ -133,7 +133,7 @@ const AddPrincipalDistributor = () => {
 
         setLoading(false);
         if (addressResponse.status === 201) {
-          toast.success("Franchisee and Address Added Successfully");
+          toast.success("Outlet and Address Added Successfully");
           navigate("/principal-distributor");
         }
       }
@@ -165,7 +165,7 @@ const AddPrincipalDistributor = () => {
           Cancel
         </Button>
         <Typography variant="h5" sx={{ mb: 3 }}>
-          Add Franchisee
+          Add Outlet
         </Typography>
         <form onSubmit={handleFormSubmit}>
           <Typography variant="h5" sx={{ mb: 2 }}>

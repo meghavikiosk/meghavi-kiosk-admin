@@ -121,7 +121,7 @@ const principalDistributor = () => {
                   "
               >
                 <div style={{ fontSize: "22px" }} className="fw-bold">
-                  All Franchisee
+                  All Outlets
                 </div>
 
                 <div className="page-title-right">
@@ -133,7 +133,7 @@ const principalDistributor = () => {
                       navigate("/add-principal-distributor");
                     }}
                   >
-                    Add Franchisee
+                    Add Outlet
                   </Button>
                 </div>
               </div>
@@ -295,7 +295,7 @@ const principalDistributor = () => {
                         ) : (
                           <tr>
                             <td colSpan="9" className="text-center">
-                              <h5>No Franchisee found!</h5>
+                              <h5>No Outlet found!</h5>
                             </td>
                           </tr>
                         )}
