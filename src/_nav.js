@@ -235,13 +235,13 @@ const _nav = [
     group: "",
 
     items: [
-      {
-        component: CNavItem,
-        name: "Transporter",
-        icon: <CIcon icon={cilCompress} customClassName="nav-icon" />,
-        to: "/transporter",
-        group: "Transporter",
-      },
+      // {
+      //   component: CNavItem,
+      //   name: "Transporter",
+      //   icon: <CIcon icon={cilCompress} customClassName="nav-icon" />,
+      //   to: "/transporter",
+      //   group: "Transporter",
+      // },
 
       // {
       //   component: CNavItem,
@@ -265,13 +265,13 @@ const _nav = [
       //   to: "/socialmedia",
       //   group: "Settings",
       // },
-      {
-        component: CNavItem,
-        name: "Currency",
-        icon: <CIcon icon={cilMoney} customClassName="nav-icon" />,
-        to: "/currency",
-        group: "Settings",
-      },
+      // {
+      //   component: CNavItem,
+      //   name: "Currency",
+      //   icon: <CIcon icon={cilMoney} customClassName="nav-icon" />,
+      //   to: "/currency",
+      //   group: "Settings",
+      // },
       {
         component: CNavItem,
         name: "Application Name",

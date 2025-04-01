@@ -92,16 +92,16 @@ const Dashboard = () => {
     console.log(res.data);
     setservices(res?.data?.totalItems);
   };
-  const [Brand, setBrand] = useState(null);
-  const getAllBrands = async () => {
-    let res = await axios.get(`/api/brand/getBrands`, {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    });
-    // console.log(res.data);
-    setBrand(res?.data?.total_data);
-  };
+  // const [Brand, setBrand] = useState(null);
+  // const getAllBrands = async () => {
+  //   let res = await axios.get(`/api/brand/getBrands`, {
+  //     headers: {
+  //       Authorization: `Bearer ${token}`,
+  //     },
+  //   });
+  //   // console.log(res.data);
+  //   setBrand(res?.data?.total_data);
+  // };
   // // 3rd
   // const [Requests, setRequests] = useState([]);
   // const getAllRequests = async () => {
@@ -183,7 +183,7 @@ const Dashboard = () => {
     getallOutlets();
     getAllCategory();
     getAllservices();
-    getAllBrands();
+    // getAllBrands();
     // getAllRequests();
   }, [token]);
   return (
@@ -195,7 +195,7 @@ const Dashboard = () => {
         // retaildistributor={retaildistributor}
         category={category}
         services={services}
-        Brand={Brand}
+        // Brand={Brand}
         orders={orders}
         outlets={outlets}
       />

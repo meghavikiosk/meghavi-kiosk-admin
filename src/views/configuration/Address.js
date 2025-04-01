@@ -18,8 +18,8 @@ function Address() {
   const [website, setWebsite] = useState("");
   const [contact, setContact] = useState("");
   const [email, setEmail] = useState("");
-  const [latitude, setLatitude] = useState("");
-  const [longitude, setLongitude] = useState("");
+  // const [latitude, setLatitude] = useState("");
+  // const [longitude, setLongitude] = useState("");
 
   useEffect(() => {
     async function getConfiguration() {
@@ -39,8 +39,8 @@ function Address() {
           setWebsite(el.website);
           setContact(el.contact);
           setEmail(el.email);
-          setLatitude(el.latitude);
-          setLongitude(el.longitude);
+          // setLatitude(el.latitude);
+          // setLongitude(el.longitude);
         });
       });
     }
@@ -65,10 +65,10 @@ function Address() {
       setContact(e.target.value);
     } else if (e.target.name.toLowerCase() === "email") {
       setEmail(e.target.value);
-    } else if (e.target.name.toLowerCase() === "latitude") {
-      setLatitude(e.target.value);
-    } else if (e.target.name.toLowerCase() === "longitude") {
-      setLongitude(e.target.value);
+    // } else if (e.target.name.toLowerCase() === "latitude") {
+    //   setLatitude(e.target.value);
+    // } else if (e.target.name.toLowerCase() === "longitude") {
+    //   setLongitude(e.target.value);
     }
   }
   async function handelSubmit() {
@@ -82,9 +82,9 @@ function Address() {
       !pincode ||
       !website ||
       !contact ||
-      !email ||
-      !longitude ||
-      !latitude
+      !email 
+      // !longitude ||
+      // !latitude
     ) {
       setLoading(false);
       return swal("Fill all the required filed!");
@@ -99,8 +99,8 @@ function Address() {
       website,
       contact,
       email,
-      longitude,
-      latitude,
+      // longitude,
+      // latitude,
     };
 
     let res = await axios.post(`/api/config/address`, data, {
@@ -264,7 +264,7 @@ function Address() {
                                     className="form-control input-field "
                                     id="basicpill-phoneno-input"
                                   />
-                                  <label
+                                  {/* <label
                                     htmlFor="basicpill-phoneno-input"
                                     className="label-100 mt-3"
                                   >
@@ -291,7 +291,7 @@ function Address() {
                                     onChange={(e) => handelChange(e)}
                                     className="form-control input-field "
                                     id="basicpill-phoneno-input"
-                                  />
+                                  /> */}
                                 </>
                               </div>
                             </div>

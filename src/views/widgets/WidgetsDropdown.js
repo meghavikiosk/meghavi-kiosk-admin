@@ -248,7 +248,7 @@ const WidgetsDropdown = ({
         /> */}
       {/* </CCol> */}
       {/* </CRow> */}
-      <h4>Services, Categories and Brands</h4>
+      <h4>Services, Categories and Outlets</h4>
       <CRow>
         <CCol sm={6} lg={3}>
           <CWidgetStatsA
@@ -282,14 +282,14 @@ const WidgetsDropdown = ({
             title="Total Orders"
           />
         </CCol>
-        <CCol sm={6} lg={3}>
+        {/* <CCol sm={6} lg={3}>
           <CWidgetStatsA
             className="mb-4"
             color="primary"
             value={<>{Brand}</>}
             title="Total Brands"
           />
-        </CCol>
+        </CCol> */}
       </CRow>
       {/* <h4>Orders</h4>
       <CRow>
