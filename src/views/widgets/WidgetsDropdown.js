@@ -24,10 +24,13 @@ const WidgetsDropdown = ({
   territorymanager,
   retaildistributor,
   Brand,
-  product,
+  services,
   category,
+  outlets,
+  orders,
 }) => {
-  // const WidgetsDropdown = ({ users, category, product, Requests }) => {
+  console.log(category)
+  // const WidgetsDropdown = ({ users, category, service, Requests }) => {
   //   const token = isAutheticated();
   //   const [orders, setOrders] = useState([]);
   //   const [todayorders, setTodayOrders] = useState([]);
@@ -135,9 +138,9 @@ const WidgetsDropdown = ({
   //   const formattedmonth = `${month} ${year}`;
   return (
     <>
-      <h4>Users</h4>
+      {/* <h4>Users</h4> */}
       {/* <h4>Principal Distributor</h4> */}
-      <CRow>
+      {/* <CRow>
         <CCol sm={6} lg={3}>
           <CWidgetStatsA
             className="mb-4"
@@ -145,33 +148,33 @@ const WidgetsDropdown = ({
             value={<>{users}</>}
             title="Total Principal Distributor"
           />
-        </CCol>
+        </CCol> */}
         {/* </CRow> */}
         {/* <h4>Retail Distributor</h4> */}
         {/* <CRow> */}
-        <CCol sm={6} lg={3}>
+        {/* <CCol sm={6} lg={3}>
           <CWidgetStatsA
             className="mb-4"
             color="primary"
             value={<>{retaildistributor}</>}
             title="Total Reatil Distributor"
           />
-        </CCol>
+        </CCol> */}
         {/* </CRow> */}
         {/* <h4>Sales Coordinator</h4> */}
         {/* <CRow> */}
-        <CCol sm={6} lg={3}>
+        {/* <CCol sm={6} lg={3}>
           <CWidgetStatsA
             className="mb-4"
             color="primary"
             value={<>{salescoordinator}</>}
             title="Total Sales Coordinator"
           />
-        </CCol>
+        </CCol> */}
         {/* </CRow> */}
         {/* <h4>Territory Manager</h4> */}
         {/* <CRow> */}
-        <CCol sm={6} lg={3}>
+        {/* <CCol sm={6} lg={3}>
           <CWidgetStatsA
             className="mb-4"
             color="primary"
@@ -179,7 +182,7 @@ const WidgetsDropdown = ({
             title="Total Territory Manager"
           />
         </CCol>
-      </CRow>
+      </CRow> */}
       {/* <CCol sm={6} lg={3}>
           <CWidgetStatsA
             className="mb-4"
@@ -245,14 +248,14 @@ const WidgetsDropdown = ({
         /> */}
       {/* </CCol> */}
       {/* </CRow> */}
-      <h4>Products, Categories and Brands</h4>
+      <h4>Services, Categories and Brands</h4>
       <CRow>
         <CCol sm={6} lg={3}>
           <CWidgetStatsA
             className="mb-4"
             color="primary"
-            value={<>{product}</>}
-            title="Total products"
+            value={<>{services}</>}
+            title="Total services"
           />
         </CCol>
         <CCol sm={6} lg={3}>
@@ -261,6 +264,22 @@ const WidgetsDropdown = ({
             color="primary"
             value={<>{category}</>}
             title="Total Categories"
+          />
+        </CCol>
+        <CCol sm={6} lg={3}>
+          <CWidgetStatsA
+            className="mb-4"
+            color="primary"
+            value={<>{outlets}</>}
+            title="Total Outlets"
+          />
+        </CCol>
+        <CCol sm={6} lg={3}>
+          <CWidgetStatsA
+            className="mb-4"
+            color="primary"
+            value={<>{orders}</>}
+            title="Total Orders"
           />
         </CCol>
         <CCol sm={6} lg={3}>
